@@ -116,11 +116,11 @@ public class Login_Step extends BaseClass {
 	@When("Enter the Details Hotel")
 	public void enter_the_details_hotel() {
 		WebElement first = driver.findElement(By.xpath("//input[@id='first_name']"));
-	    first.sendKeys("sudhananda");
+	    first.sendKeys("roja");
 	    WebElement last = driver.findElement(By.xpath("//input[@id='last_name']"));
-	    last.sendKeys("Gaddala");
+	    last.sendKeys("Gandam");
 	    WebElement address  = driver.findElement(By.xpath("//textarea[@id='address']"));
-	    address.sendKeys("Anantapur, Andhra pradesh");
+	    address.sendKeys("hyderabad,telangana");
 	    WebElement card = driver.findElement(By.xpath("//input[@id='cc_num']"));
 	    card.sendKeys("1234567899876543");
 	    WebElement typecard= driver.findElement(By.xpath("//select[@class='select_combobox']"));
